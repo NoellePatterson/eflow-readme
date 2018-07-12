@@ -2,7 +2,7 @@
 
 #### Definition:
 
-The start date of the spring recession period is meant to capture the beginning of the period during which winter baseflow gradually recedes down to summer baseflow.
+The start date of the spring recession period is meant to capture the beginning of the period during which winter baseflow gradually recedes down to summer baseflow..
 
 The timing of the start of the spring recession is identified as the point in which an overall decrease in flow occurs, following the water year's high flows during winter. To do this a search window is set around the last major wet season peak, and within that window, all local peaks are identified by taking the derivative of a spline curve. The local peak event has specific requirements for relative magnitude and rate of change during the 4 days before the peak. Then, the start date of the recession is further identified as the date of maximum daily flow between 4 days before and 7 days after the peak of the last local peak event of the wet season. A lag time of 4 days is added to the final start date, to eliminate the effects of individual storm events as much as possible.
 
@@ -80,4 +80,3 @@ The timing of the start of the spring recession is identified as the point in wh
 #### Extra considerations:
 
 When the maximum flow of a water year is extremely low, the algorithm was less effective at detecting spring timing. This is sometimes due to low flows that approach the sensitivity of the flow meter, causing the appearance of step-wise increases in flow \(see figure X\). To control for this issue, a modified spring timing algorithm is used for extremely low flow water years. In this case, the algorithm simply sets the start of spring as the date with the maximum filtered flow value.
-
