@@ -1,4 +1,3 @@
-### Peak Magnitude Flows 
+### Peak Magnitude Flows
 
-The following two metrics should be included in the peak magnitude flows section, although they aren't based on the high flows percentiles. 
-
+The following two metrics, wet season timing and wet season baseflow magnitude, characterize the overall wet season of the water year, and complement the high flow metrics calculated as part of the peak magnitude flows seasonal component.
