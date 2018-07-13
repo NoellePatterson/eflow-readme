@@ -42,7 +42,7 @@ The timing of the start of the spring recession is identified as the point in wh
    flow_data_window = gaussian_filter1d(flow_data[max_flow_index - search_window_left : max_flow_index + search_window_right], fit_sigma)
    ```
 
-6. Fit a spline over the filtered data in this region, then calculate the first derivative of the spline and find all points where the derivative crosses zero. This lets us identify an array of local peaks based on when the sign changes from positive to negative.
+6. Fit a spline curve to the filtered data in this region, then calculate the first derivative of the spline and find all points where the derivative crosses zero. This lets us identify an array of local peaks based on when the sign changes from positive to negative.
 
    ```py
    spl = ip.UnivariateSpline(x_axis_window, flow_data_window, k=3, s=3)

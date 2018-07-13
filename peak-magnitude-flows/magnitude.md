@@ -15,10 +15,7 @@ This metric calculates the magnitude of flows that exceed the 2nd, 5th, 10th, an
 Given exceedance values based on each percentile, calculate maximum flow values of each flow object that crosses the exceedance threshold.
 
 ```py
-if bool(flow_row < exceedance_value[percent] and current_flow_object[percent]) or bool(row_number == len(matrix[:, column_number]) - 1 and current_flow_object[percent]):
+if flow_row < exceedance_value[percent] and current_flow_object[percent] or row_number == len(matrix[:, column_number]) - 1 and current_flow_object[percent]:
                    """End of a object if it falls below threshold, or end of column"""
-                   current_flow_object[percent].get_max_magnitude()
+                   magnitude[percent].append(max(current_flow_object[percent].flow) / average_annual_flow)
 ```
-
-
-

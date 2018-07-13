@@ -2,7 +2,7 @@
 
 #### Definition
 
-The duration of the spring recession is simply calculated as the period of elapsed time from the start of the spring recession until the start date of the following dry season low flows period.
+The duration of the spring recession is calculated as the period of elapsed time from the start date of the spring recession until the start date of the following dry season low flows period.
 
 ```py
 for index, spring_timing in enumerate(spring_timings):
@@ -11,6 +11,3 @@ for index, spring_timing in enumerate(spring_timings):
         else:
             duration_array.append(None)
 ```
-
-
-

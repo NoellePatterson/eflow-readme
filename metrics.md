@@ -29,8 +29,8 @@ Other peak magnitude flows season metrics:
 
 * Magnitude
 * Timing
-* Duration from start of summer baseflow until wet season initation of the next year
-* Number of zero-flow days
+* Duration from start of dry season low flows until the start of the wet season of the next water year
+* Number of zero-flow days during the dry season period
 
 #### Wet Season Initiation Flows
 
@@ -42,6 +42,3 @@ Other peak magnitude flows season metrics:
 
 * Coefficient of variance
 * Average annual flow
-
-
-

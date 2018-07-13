@@ -38,10 +38,10 @@ The wet season initiation timing captures the date of the first storm event of t
         maxarray, minarray = peakdet(spl(x_axis), mean_flow * peak_sensitivity)
    ```
 
-5. Loop through the peaks in the data and identify the fall flush as the peak that fills the following requirements:
+5. Loop through the peaks in the data and identify the initiation event as the peak that fills the following requirements:
 
-   * Fall flush timing is before wet season initiation or before December 15th, whichever is earlier
-   * Duration of the rising limb of the flush is under 20 days \(ensures the peak is flashy enough\)
+   * Timing is before wet season initiation or before December 15th, whichever is earlier
+   * Duration of the rising limb of the initiation event is under 20 days \(ensures the peak is flashy enough\)
    * The peak itself, from bottom of the rising limb on either side to the top of the peak, is above a relative percent of 30%. This also ensures that the peak is flashy enough.
    * Relative magnitude is above the median baseflow magnitude threshold. The value of this threshold varies depending on the magnitude of the baseflow. The threshold is usually set as 2 times the previous dry season's baseflow, unless the baseflow is exceptionally high \(above 25 cfs\), in which case the threshold is set as 1.5 times the baseflow. The minimum threshold allowed, regardless of median baseflow, is 3cfs:.
      ```py
@@ -54,6 +54,3 @@ The wet season initiation timing captures the date of the first storm event of t
      ```
 
 6. The first peak in the data to fill the above requirements is the wet season initiation event. The timing of the wet season initiation is at the peak flow of the event. If no peak fulfills the above requirements, then there is no wet season initiation recorded for that water year.
-
-
-
