@@ -89,23 +89,23 @@ The dry season baseflow period represents the low magnitude, low variability por
 
 Table 1. Summary of 31 functional flow metrics including the functional flow components they describe, the flow characteristic they quantify, and a brief description.
 
-| Flow Component         | Flow Characteristic | Metric                                   |
-| :--------------------- | :-----------------: | ---------------------------------------: |
-| Wet Season Initiation  | Magnitude (cfs)     | event peak magnitude                     |
-|                        | Timing (date)       | event start date                         |
-|                        | Duration (days)     | event duration                           |
-| Peak Magnitude Flows   | Timing (date)       | start date of wet season initiation      |
-|                        | Magnitude (cfs)     | wet season baseflow (50P)                |
-|                        | Magnitude (cfs)     | HFE peak magnitude: 2%, 5%, 10%, 20%     |
-|                        | Timing (date)       | HFE start date: 2%, 5%, 10%, 20%         |
-|                        | Duration (days)     | HFE duration: 2%, 5%, 10%, 20%           |
-|                        | Frequency (#)       | # of HFEs/year: 2%, 5%, 10%, 20%         |
-| Spring Recession Flows | Magnitude (cfs)     | magnitude at start of spring             |
-|                        | Rate of change (%)  | median daily flow percent decrease       |
-|                        | Timing (date)       | start date of spring                     |
-|                        | Duration (days)     | duration                                 |
-| Dry Season Low Flows   | Magnitude (cfs)     | baseflow magnitude (10P)                 |
-|                        | Timing (date)       | start date of summer                     |
-|                        | Duration (days)     | start of summer to first fall flush      |
-|                        | Duration (days)     | start of summer to wet season initiation |
-|                        | Frequency (#)       | # of no-flow days                        |
+| **Flow Component**     | **Flow Characteristic** | **Metric**                               |
+| :--------------------- | :---------------------: | ---------------------------------------: |
+| Wet Season Initiation  | Magnitude (cfs)         | event peak magnitude                     |
+|                        | Timing (date)           | event start date                         |
+|                        | Duration (days)         | event duration                           |
+| Peak Magnitude Flows   | Timing (date)           | start date of wet season initiation      |
+|                        | Magnitude (cfs)         | wet season baseflow (50P)                |
+|                        | Magnitude (cfs)         | HFE peak magnitude: 2%, 5%, 10%, 20%     |
+|                        | Timing (date)           | HFE start date: 2%, 5%, 10%, 20%         |
+|                        | Duration (days)         | HFE duration: 2%, 5%, 10%, 20%           |
+|                        | Frequency (#)           | # of HFEs/year: 2%, 5%, 10%, 20%         |
+| Spring Recession Flows | Magnitude (cfs)         | magnitude at start of spring             |
+|                        | Rate of change (%)      | median daily flow percent decrease       |
+|                        | Timing (date)           | start date of spring                     |
+|                        | Duration (days)         | duration                                 |
+| Dry Season Low Flows   | Magnitude (cfs)         | baseflow magnitude (10P)                 |
+|                        | Timing (date)           | start date of summer                     |
+|                        | Duration (days)         | start of summer to first fall flush      |
+|                        | Duration (days)         | start of summer to wet season initiation |
+|                        | Frequency (#)           | # of no-flow days                        |
