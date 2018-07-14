@@ -15,7 +15,7 @@ The dimensionless reference hydrographs \(DRHs\) serve as a descriptive visual t
 
 A DRH is calculated by dividing daily streamflow data by the water year's average annual flow. This calculation is performed across all water years of flow data. Then, the 10th, 25th, 50th, 75th, and 90th percentile flows over the entire reference period of record are determined for each date of the water year. These results are then plotted to visualize the range of non-dimensionalized flow that occurs across the water year at a daily time-step. The DRH can represent the period of record for one stream gage, or the results can be aggregated across all reference gages in one stream class to summarize the flow patterns of an entire class. Figure illustrates an example DRH for a snowmelt-dominated stream class.
 
-![Figure 3. Dimensionless reference hydrograph.](dimensionless_hydrograph.png)
+![Figure 2. Dimensionless reference hydrograph.](dimensionless_hydrograph.png)
 
 
 
@@ -89,4 +89,23 @@ The dry season baseflow period represents the low magnitude, low variability por
 
 Table 1. Summary of 31 functional flow metrics including the functional flow components they describe, the flow characteristic they quantify, and a brief description.
 
-![Table1](Table1.jpg)
+| Flow Component         | Flow Characteristic | Metric                                   |
+| :--------------------- | :-----------------: | ---------------------------------------: |
+| Wet Season Initiation  | Magnitude (cfs)     | event peak magnitude                     |
+|                        | Timing (date)       | event start date                         |
+|                        | Duration (days)     | event duration                           |
+| Peak Magnitude Flows   | Timing (date)       | start date of wet season initiation      |
+|                        | Magnitude (cfs)     | wet season baseflow (50P)                |
+|                        | Magnitude (cfs)     | HFE peak magnitude: 2%, 5%, 10%, 20%     |
+|                        | Timing (date)       | HFE start date: 2%, 5%, 10%, 20%         |
+|                        | Duration (days)     | HFE duration: 2%, 5%, 10%, 20%           |
+|                        | Frequency (#)       | # of HFEs/year: 2%, 5%, 10%, 20%         |
+| Spring Recession Flows | Magnitude (cfs)     | magnitude at start of spring             |
+|                        | Rate of change (%)  | median daily flow percent decrease       |
+|                        | Timing (date)       | start date of spring                     |
+|                        | Duration (days)     | duration                                 |
+| Dry Season Low Flows   | Magnitude (cfs)     | baseflow magnitude (10P)                 |
+|                        | Timing (date)       | start date of summer                     |
+|                        | Duration (days)     | start of summer to first fall flush      |
+|                        | Duration (days)     | start of summer to wet season initiation |
+|                        | Frequency (#)       | # of no-flow days                        |
