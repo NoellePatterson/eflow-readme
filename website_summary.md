@@ -6,9 +6,7 @@ The eFlows Functional Flow Calculator \(FFC\) quantifies key hydrologic aspects 
 
 California's streams can be organized into nine natural stream classes with distinct flow regime patterns and dominant watershed controls \(Figure 1\). These stream classes represent hydrologic conditions prior to major anthropogenic impacts including dams, diversions, and land use changes \([Lane et al. 2018](https://link.springer.com/article/10.1007/s00267-018-1077-7)\). 223 reference gages with 6 - 65 years of reference data formed the foundation for this effort, spanning a wide range of physiographic settings found in California \([Zimmerman et al. 2017](https://onlinelibrary.wiley.com/doi/full/10.1111/fwb.13058)\).
 
-![FinalCAClassification](FinalCAClassification.jpg)
-
-Figure 1. Map of California hydrologic classification.  
+![Figure 1. Map of California hydrologic classification.](FinalCAClassification.jpg)
 
 
 ## Dimensionless Reference Hydrographs
@@ -17,9 +15,9 @@ The dimensionless reference hydrographs \(DRHs\) serve as a descriptive visual t
 
 A DRH is calculated by dividing daily streamflow data by the water year's average annual flow. This calculation is performed across all water years of flow data. Then, the 10th, 25th, 50th, 75th, and 90th percentile flows over the entire reference period of record are determined for each date of the water year. These results are then plotted to visualize the range of non-dimensionalized flow that occurs across the water year at a daily time-step. The DRH can represent the period of record for one stream gage, or the results can be aggregated across all reference gages in one stream class to summarize the flow patterns of an entire class. Figure illustrates an example DRH for a snowmelt-dominated stream class.
 
-![dimensionless_hydrograph](dimensionless_hydrograph.png)
+![Figure 3. Dimensionless reference hydrograph.](dimensionless_hydrograph.png)
 
-Figure 3. Dimensionless reference hydrograph.
+
 
 ## Functional Flow Metrics
 
@@ -90,4 +88,5 @@ The dry season baseflow period represents the low magnitude, low variability por
   * Number of days that flow magnitude is 0 during the dry season baseflow period.
 
 Table 1. Summary of 31 functional flow metrics including the functional flow components they describe, the flow characteristic they quantify, and a brief description.
+
 ![Table1](Table1.jpg)
