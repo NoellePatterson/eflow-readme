@@ -8,6 +8,11 @@ The functional flows calculator \(FFC\) quantifies key aspects of the annual flo
 
 This project uses [Python3](https://www.python.org/) for its processing algorithm, [React](https://reactjs.org/), [Mapbox](https://www.mapbox.com/), and [D3](https://d3js.org/) for front end web development, and [Express](https://expressjs.com/), [Sequelize](http://docs.sequelizejs.com/), and [Postgres](https://www.postgresql.org/) for the server.
 
+## Installation
+
+For installation instructions see the
+[Installation](../installation.md) section.
+
 ## To Run the Script \(Calculate Metrics\)
 
 Run the main file in project directory:
@@ -33,4 +38,3 @@ Fill out the contact support form at [https://eflows.ucdavis.edu](https://eflows
 Copyright \(c\) 2018
 
 Licensed under the [MIT license](LICENSE).
-
