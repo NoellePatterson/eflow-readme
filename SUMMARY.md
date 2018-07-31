@@ -1,7 +1,7 @@
 # Summary
 
-* [eFlows Overview](README.md)
-* [eFlows Website](website_summary.md)
+* [eFlows Overview](website_summary.md)
+<!-- * [eFlows Website](website_summary.md)
 * [Functional Flow Calculator](func-flow-calc)
   * [Installation](installation.md)
     * [MacOS](installation/macos.md)
@@ -31,4 +31,4 @@
       * [Timing](wet-season-initiation/timing.md)
     * [Annual](all-year.md)
       * [Coefficient of Variation](all-year/cov.md)
-      * [Average Annual Flow](all-year/average-annual-flow.md)
+      * [Average Annual Flow](all-year/average-annual-flow.md) -->
