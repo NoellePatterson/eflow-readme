@@ -1,8 +1,10 @@
 # Peak Magnitude Flows - Wet Season Baseflow Magnitude
 
-The magnitude of the wet season baseflow is defined as 10th percentile magnitude of daily flow from the start of the wet season to the start of the dry season.
+#### Definition
 
-#### Steps:
+The magnitude of the wet season baseflow is defined as 10th percentile magnitude of daily flow from the start of the wet season to the start of the dry season. This metric is in units of cfs. 
+
+#### Steps
 
 1. Convert raw date and flow data columns into a flow matrix based on water year. Each column starts with the beginning of the water year \(i.e. 10/1\) and ends with the end of the water year \(i.e.9/30\).
 

@@ -2,7 +2,7 @@
 
 #### Definition
 
-The magnitude of the spring recession is the flow magnitude on the start date of the spring recession or at the "peak" of the snowmelt pulse in snow-dominated streams. See the Spring Recession Timing section for more information on how the start date of the spring recession is calculated.
+The magnitude of the spring recession is the flow magnitude on the start date of the spring recession or at the "peak" of the snowmelt pulse in snow-dominated streams. See the Spring Recession Timing section for more information on how the start date of the spring recession is calculated. This metric is in units of cfs. 
 
 #### Steps
 

@@ -1,10 +1,10 @@
 # Peak Magnitude Flows - Timing
 
-#### Definition:
+#### Definition
 
-Peak flow timing is the peak magnitude flow component that calculates the start date when a flow event crosses over the flow threshold for the \(2nd, 5th, 10th, and 20th percentile\) exceedance flows over the period of record.
+Peak flow timing is the peak magnitude flow component that calculates the start date when a flow event crosses over the flow threshold for the \(2nd, 5th, 10th, and 20th percentile\) exceedance flows over the period of record. This metric is measured in Julian days, where January 1st = 1 and December 31st = 365.
 
-#### Steps:
+#### Steps
 
 1. Convert raw data from a single column of dates and a single column of flows into a matrix with columns organized by water year. Each column starts with the beginning of the water year \(i.e. 10/1\) and ends with the end of water year \(9/30\).
 2. Calculate the 2nd, 5th, 10th, and 20th percentile exceedance flow values over the entire period of record \(i.e., the entire flow matrix\).

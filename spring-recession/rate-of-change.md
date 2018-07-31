@@ -2,7 +2,7 @@
 
 #### Definition
 
-The spring recession rate of change calculates the median daily rate of change in flow from the start date of the spring recession until the start of the dry season low flow season. Only days with negative change (i.e. a decreasing rate) are used in the calculation.
+The spring recession rate of change calculates the median daily rate of change in flow from the start date of the spring recession until the start of the dry season low flow season. Only days with negative change (i.e. a decreasing rate) are used in the calculation. This metric is measured as a percentage rate of decrease. 
 
 #### Steps
 

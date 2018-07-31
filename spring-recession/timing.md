@@ -1,10 +1,10 @@
 # Spring Recession Flows - Timing
 
-#### Definition:
+#### Definition
 
-The timing of the start of the spring recession is identified as the point in which an overall decrease in flow occurs, following the water year's high flows during winter. The start date of the spring recession period is meant to capture the beginning of the period during which winter baseflow gradually recedes down to summer baseflow.
+The timing of the start of the spring recession is identified as the point in which an overall decrease in flow occurs, following the water year's high flows during winter. The start date of the spring recession period is meant to capture the beginning of the period during which winter baseflow gradually recedes down to summer baseflow. This metric is measured in Julian days, where January 1st = 1 and December 31st = 365.
 
-#### Steps:
+#### Steps
 
 1. Convert raw date and flow data columns into a flow matrix based on water year. Each column starts with the beginning of the water year \(e.g. 10/1\) and ends with the end of the water year \(e.g. 9/30\).
 

@@ -1,10 +1,10 @@
 # Wet Season Initiation Flows - Duration
 
-#### Definition:
+#### Definition
 
-Wet season initiation duration is in most cases calculated as the the number of days from the beginning of the initiation event until the initiation event peak. See step 6 in the calculation steps for the exception to this rule.
+Wet season initiation duration is in most cases calculated as the the number of days from the beginning of the initiation event until the initiation event peak. See step 6 in the calculation steps for the exception to this rule. This metric is measured in number of days.
 
-#### Steps:
+#### Steps
 
 1. The start date calculated for the wet season initiation timing and the Gaussian filtered flow data are used as inputs for the duration algorithm.
   ```py

@@ -1,8 +1,10 @@
 # Peak Magnitude Flows - Wet Season Timing
 
-The timing of the wet season is defined as the date that sufficient baseflow has accrued based on a magnitude threshold of 30% of the wet season’s smoothed peak flow.
+#### Definition
 
-#### Steps:
+The timing of the wet season is defined as the date that sufficient baseflow has accrued based on a magnitude threshold of 30% of the wet season’s smoothed peak flow. This metric is measured in Julian days, where January 1st = 1 and December 31st = 365.
+
+#### Steps
 
 1. Convert raw date and flow data columns into a flow matrix based on water year. Each column starts with the beginning of the water year \(i.e. 10/1\) and ends with the end of the water year \(i.e.9/30\).
 

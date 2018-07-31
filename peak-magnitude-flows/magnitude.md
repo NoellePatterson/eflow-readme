@@ -1,10 +1,10 @@
 # Peak Magnitude Flows - Magnitude
 
-#### Definition:
+#### Definition
 
-This metric is the peak magnitude flow component that calculates the magnitude of flows that exceed flow threshold for the 2nd, 5th, 10th, and 20th percentile exceedance flows over the period of record.
+This metric is the peak magnitude flow component that calculates the magnitude of flows that exceed flow threshold for the 2nd, 5th, 10th, and 20th percentile exceedance flows over the period of record. This metric is in units of cfs.
 
-#### Steps:
+#### Steps
 
 1. Convert raw data of from a single column of dates and a single column of flows into a matrix with columns organized by water year. Each column starts with the beginning of the water year \(i.e. 10/1\) and ends with the end of water year \(9/30\).
 2. Calculate the 2nd, 5th, 10th, and 20th percentile exceedance flow values over the entire period of record \(i.e., the entire flow matrix\).

@@ -1,10 +1,10 @@
 # Wet Season Initiation Flows - Timing
 
-#### Definition:
+#### Definition
 
-The wet season initiation timing captures the date of the first storm event of the new water year. This is meant to characterize the first significant increase in flows following the dry season. The wet season initiation event is the first date between October 1st to December 15th in which flow exceeds the initiation event threshold, which is defined as twice the magnitude of the previous dry season’s base flow or 1 cfs, whichever is greater.
+The wet season initiation timing captures the date of the first storm event of the new water year. This is meant to characterize the first significant increase in flows following the dry season. The wet season initiation event is the first date between October 1st to December 15th in which flow exceeds the initiation event threshold, which is defined as twice the magnitude of the previous dry season’s base flow or 1 cfs, whichever is greater. This metric is measured in Julian days, where January 1st = 1 and December 31st = 365.
 
-#### Steps:
+#### Steps
 
 1. Convert raw date and flow data columns into a flow matrix based on water year. Each column starts with the beginning of the water year \(i.e. 10/1\) and ends with the end of the water year \(i.e.9/30\).
 

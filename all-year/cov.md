@@ -2,7 +2,7 @@
 
 #### Definition
 
-Coefficient of variation \(COV\) is defined as the standard deviation divided by the mean of the daily flow for each water year and is calculated individually for each water year.
+Coefficient of variation \(COV\) is defined as the standard deviation divided by the mean of the daily flow for each water year and is calculated individually for each water year. This metric is a unitless coefficient.
 
 #### Steps
 

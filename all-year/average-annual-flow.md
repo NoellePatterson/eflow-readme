@@ -2,7 +2,7 @@
 
 #### Definition
 
-The arithmetic mean of daily flow is calculated individually for each water year.
+The arithmetic mean of daily flow is calculated individually for each water year. This metric is in units of cfs. 
 
 #### Steps
 

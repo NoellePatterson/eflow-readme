@@ -2,7 +2,7 @@
 
 #### Definition
 
-The timing of the dry season baseflow captures the date in which the high flows of the winter season have receded and the low-flow period of summer has begun (end of the spring recession).
+The timing of the dry season baseflow captures the date in which the high flows of the winter season have receded and the low-flow period of summer has begun (end of the spring recession). This metric is measured in Julian days, where January 1st = 1 and December 31st = 365.
 
 #### Steps
 
