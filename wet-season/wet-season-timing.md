@@ -2,7 +2,7 @@
 
 #### Definition
 
-The timing of the wet season is defined as the date that sufficient baseflow has accrued based on a magnitude threshold of 30% of the wet season’s smoothed peak flow. This metric is measured in Julian days, where January 1st = 1 and December 31st = 365.
+The timing of the wet season is defined as the date that sufficient baseflow has accrued based on a magnitude threshold of 30% of the difference between baseflow and the peak wet season flow of the smoothed data. This metric is measured in Julian days, where January 1st = 1 and December 31st = 365.
 
 #### Steps
 

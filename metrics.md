@@ -4,9 +4,7 @@ The FFC calculates metrics describing ecologically relevant components of the an
 
 #### Peak Magnitude Flows
 
-Each of the following metrics is calculated annually for high flows that exceed the 2nd, 5th, 10th, and 20th percentile flows across the period of record. For example, the 2nd percentile flow is the magnitude of flow that is only exceeded 2% of the time over the period of record \(conversely, it is higher than 98% of flows over the period of record\). The four exceedance flows percentages, multiplied by the four metrics categories, results in 16 peak magnitude flow metrics calculated for each water year.
-
-Metrics based on the 2nd, 5th, 10th, and 20th percentile flows over the period of record:
+Each of the following metrics is calculated annually for high flows that exceed the 2nd, 5th, 10th, and 20th percentile flows across the period of record:
 
 * Magnitude
 * Timing

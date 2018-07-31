@@ -1,4 +1,4 @@
-# Peak Magnitude Flows - Overview
+# Peak Magnitude Flows: Overview
 
 Peak magnitude flows are one of the four seasonal functional flow components. The following metrics are calculated for high flows that exceed the 2nd, 5th, 10th, and 20th percentile flows across the  period of record:
 

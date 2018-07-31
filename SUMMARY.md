@@ -30,5 +30,5 @@
       * [Duration](wet-season-initiation/duration.md)
       * [Timing](wet-season-initiation/timing.md)
     * [Annual](all-year.md)
-      * [Coefficient of Variance](all-year/cov.md)
+      * [Coefficient of Variation](all-year/cov.md)
       * [Average Annual Flow](all-year/average-annual-flow.md)

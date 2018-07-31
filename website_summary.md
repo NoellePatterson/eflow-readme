@@ -23,7 +23,7 @@ A DRH is calculated by dividing daily streamflow data by the water year's averag
 
 The functional flow calculator \(FFC\) quantifies key aspects of the annual flow regime  based on long-term daily streamflow time series data, producing a broad suite of descriptive functional flow metrics. These metrics are meant to characterize ecologically relevant components of any flow regime in a robust, objective manner to enable comparisons of streamflow across regions, natural stream classes, and various forms and magnitudes of flow alteration. The metrics are organized annually by water year, which is the 365 day period over which streamflow is assessed. The FFC uses October 1st - September 30th as the default water year, although this setting can be modified in Python by users of the FFC tool. The FFC generates 31 metrics describing aspects of streamflow timing, magnitude, duration, frequency, and rate of change, organized into four seasonally-based functional flow components: 1\) wet season initiation flows, 2\) peak magnitude flows, 3\) spring recession flows, and 4\) dry season low flows. For more detail about the metrics and how they are calculated, see the Metrics subsection in the Functional Flow Calculator section. For more theory behind the functional flow components, see \([Yarnell et al. 2015](https://academic.oup.com/bioscience/article/65/10/963/245807)\).
 
-## Functional Flow Metrics 
+## Functional Flow Metrics
 
 ### Annual Metrics
 
@@ -59,7 +59,7 @@ A suite of metrics are calculated for the 2%, 5%, 10%, and 20% flow exceedance t
 Two additional wet season metrics are calculated:
 
 * **Wet season start timing**
-  * Start date of wet season, defined as the date that sufficient baseflow has accrued based on a magnitude threshold of 30% of the wet season’s peak flow.
+  * Start date of wet season, defined as the date that sufficient baseflow has accrued based on a magnitude threshold of 30% of the difference between baseflow and the peak wet season flow of the smoothed data.
 * **Wet season baseflow magnitude**
   * 10th percentile daily flow from the start of the wet season to the start of the dry season.
 
