@@ -1,6 +1,6 @@
 # Peak Magnitude Flows - Wet Season Timing
 
-The timing of the wet season represents the high magnitude flow period of the water year, and is defined as the date that sufficient baseflow has accrued based on a magnitude threshold of 30% of the wet season’s peak flow.
+The timing of the wet season is defined as the date that sufficient baseflow has accrued based on a magnitude threshold of 30% of the wet season’s smoothed peak flow.
 
 #### Steps:
 
@@ -31,7 +31,7 @@ The timing of the wet season represents the high magnitude flow period of the wa
    search_index = int(maxarray_wet[index][0])
    break
    ```
-6. Search from right to left, starting at the search index, for the first flow value that falls below the relative magnitude threshold of 30%. This flow date is set as the start date of the wet season. 
+6. Search from right to left, starting at the search index, for the first flow value that falls below the relative magnitude threshold of 30%. This flow date is set as the start date of the wet season.
    ```py
    for index, value in enumerate(reversed(wet_season_filter_data[:search_index])):
         if index == len(wet_season_filter_data[:search_index] - 1):
@@ -46,6 +46,3 @@ The timing of the wet season represents the high magnitude flow period of the wa
    if return_date:
       wet_dates[-1] = return_date + 10
    ```
-
-
-

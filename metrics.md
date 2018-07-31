@@ -13,7 +13,7 @@ Metrics based on the 2nd, 5th, 10th, and 20th percentile flows over the period o
 * Duration
 * Frequency
 
-Other peak magnitude flows season metrics:
+Other peak magnitude flow season metrics:
 
 * Wet season baseflow magnitude
 * Wet season start timing

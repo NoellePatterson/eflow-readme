@@ -2,7 +2,7 @@
 
 #### Definition
 
-The spring recession rate of change calculates the median daily rate of change in flow from the spring recession until the start of the dry season low flows season. Only days with negative change are used in the calculation.
+The spring recession rate of change calculates the median daily rate of change in flow from the start date of the spring recession until the start of the dry season low flow season. Only days with negative change (i.e. a decreasing rate) are used in the calculation.
 
 #### Steps
 
@@ -20,7 +20,3 @@ The spring recession rate of change calculates the median daily rate of change i
    elif flow_data[flow_index + 1] < flow_data[flow_index]:
       rate_of_change_neg.append((flow_data[flow_index] - flow_data[flow_index + 1]) / flow_data[flow_index])
    ```
-
-   #### Extra Considerations
-
-   Two other methods for calculating rate of change are included in the FFC code, in case a different rate of change method is desired, but only the values for the negative rate of change method described above are returned by default.

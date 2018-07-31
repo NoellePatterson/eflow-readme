@@ -2,7 +2,7 @@
 
 #### Definition
 
-The timing of the dry season baseflow captures the date in which the high flows of the winter season have receded and the low-flow period of summer has begun. The dry season low flow timing is identified based on criteria for relative low-flow magnitude, slope of the hydrograph, and timing.
+The timing of the dry season baseflow captures the date in which the high flows of the winter season have receded and the low-flow period of summer has begun (end of the spring recession).
 
 #### Steps
 
@@ -14,7 +14,7 @@ The timing of the dry season baseflow captures the date in which the high flows 
         else:
             flow_data = matrix[:, column_number]
    ```
-2. Prepare the flow data for analysis by interpolating between blank values, smoothing the timeseries with a large Gaussian filter, and fitting a spline curve to the smoothed data.
+2. Prepare the flow data for analysis by interpolating between blank values, smoothing the timeseries with a large-sigma Gaussian filter, and fitting a spline curve to the smoothed data.
 
 3. From the smoothed data, identify the last major peak of the hydrograph. This is meant to represent the last significant flow events of the wet season, or the last "critical mass" of flow. A user-defined late-season threshold is set \(Julian Day 325\), so that the last major season peak flow cannot occur beyond this peak. This is to ensure that the identified peak captures the true wet season, instead of an unseasonal storm flow in the summer period, which sometimes occurs in both storm- and snowmelt- driven streams.
 

@@ -2,7 +2,7 @@
 
 #### Definition:
 
-Wet season initiation duration is usually set as the the number of days from the beginning of the initiation event until the initiation event peak.
+Wet season initiation duration is in most cases calculated as the the number of days from the beginning of the initiation event until the initiation event peak. See step 6 in the calculation steps for the exception to this rule.
 
 #### Steps:
 
@@ -12,7 +12,7 @@ Wet season initiation duration is usually set as the the number of days from the
    ```
 2. Set a requirement for slope and flow magnitude on either side of the initiation event \(left-side rising limb and right-side falling limb\). The derivative percent threshold shown in the code snippet below is the slope requirement. Each side of the peak must have a certain degree of steepness, and once it falls below the steepness threshold then the left or right end of the peak is reached. The derivative threshold is higher for the left side \(requires a steeper rising limb\) and lower for the right side \(requires a less steep falling limb\). This is based on the typical shape of a storm-caused peak in flow.
 
-The flow percent threshold is a magnitude percentile requirement for the left or right side of the initiation event peak. For the left side, the left end of the initiation event peak must have a lower magnitude than a certain percentile \(in this case the 80th percentile\) of all flow values on the left side of the peak. The same requirement is used for the right side of the peak.
+  The flow percent threshold is a magnitude percentile requirement for the left or right side of the initiation event peak. For the left side, the left end of the initiation event peak must have a lower magnitude than a certain percentile \(in this case the 80th percentile\) of all flow values on the left side of the peak. The same requirement is used for the right side of the peak.
 
   ```py
   """Left side sharp"""

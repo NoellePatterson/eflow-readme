@@ -8,8 +8,6 @@ The wet season initiation timing captures the date of the first storm event of t
 
 1. Convert raw date and flow data columns into a flow matrix based on water year. Each column starts with the beginning of the water year \(i.e. 10/1\) and ends with the end of the water year \(i.e.9/30\).
 
-#### The following steps are conducted for each water year at a time:
-
 1. Check if the data contains more than allowed `None` and `zero` data. Then, interpolate between missing values to get a full dataset:
 
    ```py
