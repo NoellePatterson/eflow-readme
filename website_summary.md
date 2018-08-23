@@ -17,7 +17,9 @@ A DRH is calculated by dividing daily streamflow data by the water year's averag
 
 ![Figure 2. Dimensionless reference hydrograph for a snowmelt dominated stream class.](dimensionless_hydrograph.png)
 
+## Hydrologic Class Boxplots
 
+The metric results from the FFC are aggregated across the reference gages of each hydrologic class, and visualized with class-wide boxplots to allow for comparison. The boxplots display the median (middle line that divides the box into two parts), the interquartile range (75th and 25th percentile values, the top and bottom of the box), and the 90th and 10th percentile values (the "whiskers" extending above and below the box). More information about the metrics visualized in the boxplots is included below.
 
 ## Functional Flow Calculator
 
