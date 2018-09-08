@@ -19,7 +19,11 @@ A DRH is calculated by dividing daily streamflow data by the water year's averag
 
 ## Hydrologic Class Boxplots
 
-The metric results from the FFC are aggregated across the reference gages of each hydrologic class, and visualized with class-wide boxplots to allow for comparison. The boxplots display the median (middle line that divides the box into two parts), the interquartile range (75th and 25th percentile values, the top and bottom of the box), and the 90th and 10th percentile values (the "whiskers" extending above and below the box). More information about the metrics visualized in the boxplots is included below.
+The metric results from the FFC are aggregated across the reference gages of each hydrologic class, and visualized with class-wide boxplots to allow for comparison (Figure 3). The boxplots display the median (middle line that divides the box into two parts), the interquartile range (75th and 25th percentile values, the top and bottom of the box), and the 90th and 10th percentile values (the "whiskers" extending above and below the box). 
+![Figure 3. Boxplot visualization of FFC metrics across all hydrologic classes.](Boxplot.png)
+
+The metrics are also displayed on the class-wide DRHs in a format similar to the boxplots, visualized as colored bands (Figure 4). The values that comprise these bands are the aggregated results across the reference gages of each hydrologic class. Similar to the boxplots, the line in the middle of the band represents the median value, the dark bands on either side are the interquartile range, and the light bands are the 90th and 10th percentile values. 
+![Figure 4. Metric results displayed over a class-wide DRH as colored bands. Note that the 10th and 90th percentile horizontal bands are difficult to see because their values are very close to the interquartile range bands.](HLP_DRH.png)
 
 ## Functional Flow Calculator
 
