@@ -2,6 +2,8 @@
 
 The eFlows Functional Flow Calculator \(FFC\) quantifies key hydrologic aspects of the annual flow regime from any daily streamflow time series. The FFC produces dimensionless reference hydrographs \(defined below\) and a suite of functional flow metrics that quantify functional flow components, referring to portions of the annual flow regime expected to serve distinct geomorphic or ecological functions \([Yarnell et al. 2015](https://academic.oup.com/bioscience/article/65/10/963/245807)\). Results are presented visually and data can be directly downloaded. Users of the FFC can also install and run the FFC on their own computer; for more information see the FFC [installation](../installation.md) section. The hydrographs and metrics enable comparisons of streamflow patterns across regions, natural stream classes, and various forms and magnitudes of flow alteration. The FFC generates 31 metrics describing aspects of streamflow timing, magnitude, duration, frequency, and rate of change, organized into four functional flow components: 1\) wet season initiation flows, 2\) peak magnitude flows, 3\) spring recession flows, and 4\) dry season low flows \(Table 1\).
 
+For more detailed description of how the FFC metrics were calculated, with code snippets, refer to the [online FFC documentation](https://eflow.gitbook.io/ffc-readme/).
+
 ## Stream Classification
 
 California's streams can be organized into nine natural stream classes with distinct flow regime patterns and dominant watershed controls \(Figure 1\). These stream classes represent hydrologic conditions prior to major anthropogenic impacts including dams, diversions, and land use changes \([Lane et al. 2018](https://link.springer.com/article/10.1007/s00267-018-1077-7)\). 223 reference gages with 6 - 65 years of reference data formed the foundation for this effort, spanning a wide range of physiographic settings found in California \([Zimmerman et al. 2017](https://onlinelibrary.wiley.com/doi/full/10.1111/fwb.13058)\).
@@ -31,6 +33,8 @@ The functional flow calculator \(FFC\) quantifies key aspects of the annual flow
 
 ## Functional Flow Metrics
 
+The FFC hydrologic metrics are described below. For more detailed description of how these metrics were calculated in the FFC, with code snippets, refer to the [online FFC documentation](https://eflow.gitbook.io/ffc-readme/). 
+
 ### Annual Metrics
 
 * **Average annual flow**
@@ -40,7 +44,7 @@ The functional flow calculator \(FFC\) quantifies key aspects of the annual flow
 
 ### Wet Season Initiation Flow
 
-This flow component describes the first significant increase in flow following the dry season baseflow. This initiation event often takes the form of a storm event that introduces a pulse of flow into the stream. It typically occurs each year but may not in some years depending on climate conditions.
+This flow component describes the first significant increase in flow following the dry season baseflow. The initiation event often takes the form of a storm event that introduces a pulse of flow into the stream. It typically occurs each year but may not occur in some years depending on climate conditions.
 
 * **Initiation event timing**
   * First date from October 1st to December 15th that flow exceeds the initiation event threshold, which is defined as twice the magnitude of the previous dry season’s base flow or 1 cfs, whichever is greater.
@@ -51,7 +55,7 @@ This flow component describes the first significant increase in flow following t
 
 ### Peak Magnitude Flows
 
-A suite of metrics are calculated for the 2%, 5%, 10%, and 20% flow exceedance thresholds over the period of record. For example, the 2% exceedance flow is the flow magnitude that is only exceeded 2% of the time over the period of record. High flows may exceed these thresholds multiple times in some years and not at all in other years. These metrics are calculated for each high flow exceedance threshold in each water year and then the 10th, 50th, and 90th percentile metric values are calculated over the period of record:
+To describe the peak magnitude season, a suite of metrics are calculated for the 2%, 5%, 10%, and 20% flow exceedance thresholds over the period of record. For example, the 2% exceedance flow is the flow magnitude that is only exceeded 2% of the time over the period of record. High flows may exceed these thresholds multiple times in some years and not at all in other years. These metrics are calculated for each high flow exceedance threshold in each water year and then the 10th, 50th, and 90th percentile metric values are calculated over the period of record:
 
 * **High flow magnitude**
   * Peak flow magnitude above the high flow exceedance threshold
@@ -65,7 +69,7 @@ A suite of metrics are calculated for the 2%, 5%, 10%, and 20% flow exceedance t
 Two additional wet season metrics are calculated:
 
 * **Wet season start timing**
-  * Start date of wet season, defined as the date that sufficient baseflow has accrued based on a magnitude threshold of 30% of the difference between baseflow and the peak wet season flow of the smoothed data.
+  * The date that sufficient baseflow has accrued based on a magnitude threshold of 30% of the difference between baseflow and the peak wet season flow of the smoothed data.
 * **Wet season baseflow magnitude**
   * 10th percentile daily flow from the start of the wet season to the start of the dry season.
 
@@ -74,7 +78,7 @@ Two additional wet season metrics are calculated:
 The spring recession encompasses the seasonal transition from wet season high flows to dry season low flows. Metrics calculated include timing and magnitude of the start of the recession, duration of the recession period, and flow rate of change over that period.
 
 * **Recession start timing**
-  * Start date of spring recession. A search window is set around the last major storm event of the wet season, and the last local peak event within that window is identified as the end of the wet season. The spring recession start date is set as 4 days following the end of the wet season to reduce sensitivity to individual storm events.
+  * Start date of spring recession is identified four days after the last local peak event following the final major flow period of the wet season. The purpose of delaying the start date by four days is to reduce the influence of individual storm events on the magnitude of the spring recession.
 * **Recession start magnitude**
   * Flow magnitude at the start of the spring recession.
 * **Recession duration**
@@ -87,7 +91,7 @@ The spring recession encompasses the seasonal transition from wet season high fl
 The dry season low flow period represents the low magnitude, low variability portion of the year between wet seasons.
 
 * **Dry season start timing**
-  * Start date of the dry season low flow period, identified based on criteria for relative magnitude, rate of change, and timing. A search window is set from the spring recession start date to the end of the water year \(Sep 30\), and the first date that flow magnitude falls below 12.5% of the wet season’s maximum flow, and rate of change approaches zero, is identified as the start of the dry season.
+  * Start date of the dry season low flow period is identified based on criteria for relative magnitude, rate of change, and timing. A search window is set from the spring recession start date to the end of the water year \(Sep 30\), and the first date in which: 1) the flow magnitude falls below 12.5% of the wet season’s maximum flow, and 2) rate of change approaches zero, is identified as the start of the dry season.
 * **Dry season low flow magnitude**
   * 10th percentile daily flow from the dry season start date to the wet season start date.
 * **Dry season low flow duration**
